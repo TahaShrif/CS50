@@ -8,8 +8,12 @@ int main(void)
     {
         printf("num1 is smaller than num2");
     }
+    else if(num1 > num2)
+    {
+        printf("num1 is larger than num2 ");
+    }
     else
     {
-        printf("num1 is not smaller than num2 ");
+        printf("Num1 and Num2 equal each other");
     }
 }
