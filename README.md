@@ -1,3 +1,4 @@
-# CS50 | Week 1
+#CS50
 
-These are the projects I made during week 1 in CS50
+This is an overview of all the programs I did during CS50
+This includes all Weeks plus Problem sets
