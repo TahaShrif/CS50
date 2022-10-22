@@ -1,10 +1,21 @@
 #include <stdio.h>
 
-int main (void)
+int get_int(void);
+
+int main(void)
 {
-    // Using the Debugger for the first time to see what happens
-    for(int i=0; i <= 3; i++ )
+    int i = get_int();
+    printf("i is %i", i);
+}
+
+int get_int(void)
+{
+    int n;
+    do
     {
-        printf("#\n");
-    }
+        printf("What is i? \n");
+        scanf("%i", &n);    
+    } while (n < 0);    
+    return n;
+
 }
