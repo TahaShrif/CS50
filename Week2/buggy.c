@@ -2,6 +2,8 @@
 
 int get_int(void);
 
+//meaningless comment 
+
 int main(void)
 {
     int i = get_int();
