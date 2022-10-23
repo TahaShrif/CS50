@@ -4,7 +4,10 @@ int main(void)
 {
     // Ok now I'm gonna make the first string here
 
-    char Hi[] = "Hello world";
-    printf("%s", Hi);
-    
+    printf("Please Enter your name: ");
+    char Name[] = "";
+    scanf("%s", Name);
+    printf("Hello, how are you %s", Name);
+
+    // Yaay, it worked
 }
